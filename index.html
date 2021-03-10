@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <button type="button" class="btn btn-primary naujasbtn" id="naujas">Naujas</button>
+
+        <table class="table">
+            <thead class="thead-light table">
+                <tr>
+                    <th scope="col">Numeris</th>
+                    <th scope="col">Greitis</th>
+                    <th scope="col">Laikas</th>
+                    <th scope="col">Data</th>
+
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+    <div class="menu">
+        <h5 class="menu__title">
+            Pridekite nauja irasa
+        </h5>
+        <br>
+        <form class="menu__form" action="">
+            <input class='menu__numeris' type="text" placeholder="Numeris" id="numeris">
+            <br>
+            <input class='menu__gretis' type="text" placeholder="Greitis" id="greitis">
+            <br>
+            <input class='menu__laikas' type="text" placeholder="Laikas" id="laikas">
+            <br>
+            <input class='menu__data' type="date" id="data">
+            <br>
+            <div class="main__button">
+                <button type="button" id="atsaukti" class="btn btn-primary atsaukti">Atsaukti</button>
+                <button type="button" class="btn btn-success prideti">Prideti</button>
+            </div>
+        </form>
+
+
+
+        <br>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
